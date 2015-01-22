@@ -2,11 +2,12 @@
 <module rename-to='Main'>
   <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User' />
-
+  <inherits name='org.gwtbootstrap3.GwtBootstrap3'/>
+  <inherits name="org.fusesource.restygwt.RestyGWT"/>
   <!-- Inherit the default GWT style sheet.  You can change       -->
   <!-- the theme of your GWT application by uncommenting          -->
   <!-- any one of the following lines.                            -->
-  <inherits name='com.google.gwt.user.theme.standard.Standard' />
+ <!--  <inherits name='com.google.gwt.user.theme.standard.Standard' /> -->
   <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
   <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
 
