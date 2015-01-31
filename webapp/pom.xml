@@ -56,22 +56,22 @@
             <version>1.2</version>
         </dependency>
         <!-- GWT Dependencies -->
-	 <!--    <dependency>
+<!--	    <dependency>
 	      <groupId>com.google.gwt</groupId>
 	      <artifactId>gwt-servlet</artifactId>
 	      <scope>runtime</scope>
-	    </dependency>  -->
-	    <dependency>
+	    </dependency> 
+-->	    <dependency>
 	      <groupId>com.google.gwt</groupId>
 	      <artifactId>gwt-user</artifactId>
 	      <scope>provided</scope>
 	    </dependency>
-	   <!--  <dependency>
+<!--`	    <dependency>
 	      <groupId>com.google.gwt</groupId>
 	      <artifactId>gwt-dev</artifactId>
 	      <scope>provided</scope>
-	    </dependency> -->
-	    <!-- GWT Bootstrap3 dependencies -->
+	    </dependency>
+-->	    <!-- GWT Bootstrap3 dependencies-->
 	    <dependency>
 		  <groupId>org.gwtbootstrap3</groupId>
 	      <artifactId>gwtbootstrap3</artifactId>
