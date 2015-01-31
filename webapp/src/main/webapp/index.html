@@ -16,6 +16,10 @@ body {
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
+.no-left-right-padding{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 </style>
 </head>
 <body>
@@ -50,8 +54,10 @@ body {
     </div>
   </nav>
   <div id="root"></div>
-  <div class="container-fluid" id="malhi_leftNav">
-
+  <div class="container-fluid" >
+    <div class="row ">
+-      <div class="col-sm-3 col-md-2 sidebar no-left-right-padding" id="malhi_leftNav"></div>
+    </div>
   </div>
 
   <hr>

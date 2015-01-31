@@ -14,17 +14,8 @@ public class LeftNav extends Composite {
   private static TestUiBinder uiBinder = GWT.create(TestUiBinder.class);
   interface TestUiBinder extends UiBinder<Widget, LeftNav> {
   }
-  @UiField
-  UListElement ul;
   public LeftNav() {
     Widget widget = uiBinder.createAndBindUi(this);
-    //initWidget(widget);
-    for (int i = 0; i < 10; i++) {
-      Element listItem = DOM.createElement("li");
-      listItem.setInnerText("List Item" + i);
-      listItem.addClassName("h4");
-      ul.appendChild(listItem);
-    }
     RootPanel.get("malhi_leftNav").add(widget);
   }
 }

@@ -1,18 +1,14 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
-<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g='urn:import:com.google.gwt.user.client.ui'>
-  <ui:style>
-  
-  </ui:style>
-    <g:HTMLPanel>
-    <div class="row">
-      <div class="col-sm-3 col-md-2 sidebar">
-        <ul class="nav nav-sidebar" ui:field="ul">
-<!--           <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Reports</a></li>
-          <li><a href="#">Analytics</a></li>
-          <li><a href="#">Export</a></li> -->
-        </ul>
-      </div>
-    </div>
-    </g:HTMLPanel>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:b="urn:import:org.gwtbootstrap3.client.ui">
+ <b:LinkedGroup>
+  <b:LinkedGroupItem active="true" text="Sed and Awk">
+     <b:Badge text="4"/>
+  </b:LinkedGroupItem>
+  <b:LinkedGroupItem text="Bash">
+   <b:Badge text="6"/>
+  </b:LinkedGroupItem>
+  <b:LinkedGroupItem text="Java">
+   <b:Badge text="2"/>
+  </b:LinkedGroupItem>
+</b:LinkedGroup>
 </ui:UiBinder>
