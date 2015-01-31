@@ -14,6 +14,7 @@ public class Main extends Composite implements EntryPoint {
 	private static MyUiBinder myUiBinder = GWT.create(MyUiBinder.class);
 	@Override
 	public void onModuleLoad() {
-		RootPanel.get().add(myUiBinder.createAndBindUi(this));
+		RootPanel.get("root").add(myUiBinder.createAndBindUi(this));
+		new LeftNav();
 	}
 }
